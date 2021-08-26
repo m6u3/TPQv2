@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+/*color pallette https://coolors.co/336699-86bbd8-2f4858-9ee493-daf7dc*/
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #86BBD8;
+}
+
+.bg1{
+    background-color:#336699;
+}
