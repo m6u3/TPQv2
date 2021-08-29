@@ -26,7 +26,7 @@ html {
     }
   }
 
-  @media only screen and (min-width: 1920px){
+  @media only screen and (min-width: 1290px){
     
     .card1{
      width: 50rem;
