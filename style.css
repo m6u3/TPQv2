@@ -15,20 +15,20 @@ html {
     font-size: 1rem;
   }
   
-  @include media-breakpoint-up(sm) {
-    html {
-      font-size: 3rem;
-    }
+  .card1{
+    width: 18rem;
   }
   
-  @include media-breakpoint-up(md) {
-    html {
-      font-size: 4rem;
+  @media only screen and (min-width: 768px){
+
+     .card1{
+      width: 30rem;
     }
   }
-  
-  @include media-breakpoint-up(lg) {
-    html {
-      font-size: 5rem;
-    }
-  }
+
+  @media only screen and (min-width: 1920px){
+    
+    .card1{
+     width: 50rem;
+   }
+ }
