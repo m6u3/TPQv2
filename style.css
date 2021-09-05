@@ -37,4 +37,7 @@ html {
     .card1{
      width: 50rem;
    } 
+   body{
+     background-image: url(/src/Images/background-carwash3.jpg);
+   }
   }
