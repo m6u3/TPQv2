@@ -2,11 +2,17 @@
 /*color pallette https://coolors.co/336699-86bbd8-2f4858-9ee493-daf7dc*/
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(/src/Images/background-carwash2.jpg);
+    background-size: cover;
     background-color:#9CAEA9;
+    background-attachment: fixed;
 }
 
 .bg1{
     background-color:#336699;
+}
+.text-color{
+  color: greenyellow;
 }
 a{
     text-decoration: none;
