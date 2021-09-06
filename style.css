@@ -2,11 +2,17 @@
 /*color pallette https://coolors.co/336699-86bbd8-2f4858-9ee493-daf7dc*/
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(/src/Images/background-carwash2.jpg);
+    background-size: cover;
     background-color:#9CAEA9;
+    background-attachment: fixed;
 }
 
 .bg1{
-    background-color:#336699;
+    background-color: rgb(16, 114, 160, 0.8);
+}
+.text-color{
+  color: greenyellow;
 }
 a{
     text-decoration: none;
@@ -18,17 +24,40 @@ html {
   .card1{
     width: 18rem;
   }
-  
+  .card1 img {
+    height: 25rem;
+  } 
+  #mrImg{
+    object-fit: cover;
+  }
+
   @media only screen and (min-width: 768px){
 
      .card1{
       width: 30rem;
     }
+
+    .card1 img {
+      height: 40rem;
+    }
+    #mrImg{
+      object-fit: cover;
+    }
   }
+
 
   @media only screen and (min-width: 1290px){
     
     .card1{
      width: 50rem;
+   } 
+   .card1 img {
+    height: 55rem;
+  }
+  #mrImg{
+    object-fit: cover;
+  }
+   body{
+     background-image: url(/src/Images/background-carwash3.jpg);
    }
- }
+  }
