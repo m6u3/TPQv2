@@ -24,19 +24,39 @@ html {
   .card1{
     width: 18rem;
   }
-  
+  .card1 img {
+    height: 25rem;
+  } 
+  #mrImg{
+    object-fit: cover;
+  }
+
   @media only screen and (min-width: 768px){
 
      .card1{
       width: 30rem;
     }
+
+    .card1 img {
+      height: 40rem;
+    }
+    #mrImg{
+      object-fit: cover;
+    }
   }
+
 
   @media only screen and (min-width: 1290px){
     
     .card1{
      width: 50rem;
    } 
+   .card1 img {
+    height: 55rem;
+  }
+  #mrImg{
+    object-fit: cover;
+  }
    body{
      background-image: url(/src/Images/background-carwash3.jpg);
    }
